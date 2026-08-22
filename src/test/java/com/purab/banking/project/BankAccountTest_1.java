@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 class BankAccountTest_1 {
 
-  @Test
+    @Test
     void newAccountShouldStartWithZeroBalance() {
         BankAccount account = new BankAccount(100001, "Purab");
 
