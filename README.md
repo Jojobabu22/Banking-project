@@ -8,7 +8,7 @@ This project is a console-based banking application that allows users to manage 
 
 The system was developed using Java and Maven, with a focus on clean object-oriented design, transaction management, security, and software testing.
 
-Features
+Features:
 Create and manage bank accounts
 Deposit money
 Withdraw money
@@ -35,11 +35,11 @@ The application follows an object-oriented design where different classes are re
 
 Main Components
 
-BankSystem
+-BankSystem
 
 Responsible for managing the overall banking operations and accounts.
 
-BankAccount
+-BankAccount
 
 Represents an individual bank account and manages:
 
@@ -49,11 +49,11 @@ Deposits
 Withdrawals
 Transactions
 
-User
+-User
 
 Represents a customer using the banking system.
 
-Transaction
+-Transaction
 
 Represents a financial transaction such as:
 
@@ -61,15 +61,15 @@ Deposit
 Withdrawal
 Transfer
 
-AES
+-AES
 
 Provides encryption functionality for protecting sensitive information.
 
-Main
+-Main
 
 Provides the entry point for running the application.
 
-Security
+-Security
 
 Security is an important part of this project.
 
@@ -83,7 +83,7 @@ javax.crypto.SecretKey
 
 Note: This project is an educational banking simulation and is not intended for production financial use.
 
-Testing
+-Testing
 
 The project uses JUnit 5 for automated testing.
 
